@@ -8,9 +8,9 @@ my_api_key = nasa_api_dict["nasa_api.json"]
 
 url2 = url + my_api_key
 
-# mars_pics = requests.get(url2).json
+mars_pics = requests.get(url2).json
 
-# main_functions.save_to_file(mars_pics, "mars_pics.json")
+main_functions.save_to_file(mars_pics, "mars_pics.json")
 
 mars_pics = main_functions.read_from_file("mars_pics.json")
 
